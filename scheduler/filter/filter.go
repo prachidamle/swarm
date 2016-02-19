@@ -29,13 +29,13 @@ func init() {
 		&DependencyFilter{},
 		&AffinityFilter{},
 		&ConstraintFilter{},
+		&RancherFilter{},
 	}
 }
 
 // New is exported
 func New(names []string) ([]Filter, error) {
 	var selectedFilters []Filter
-
 	for _, name := range names {
 		found := false
 		for _, filter := range filters {
