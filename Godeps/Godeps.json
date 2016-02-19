@@ -1,6 +1,6 @@
 {
 	"ImportPath": "github.com/docker/swarm",
-	"GoVersion": "go1.5",
+	"GoVersion": "go1.5.1",
 	"Deps": [
 		{
 			"ImportPath": "github.com/Sirupsen/logrus",
@@ -38,11 +38,6 @@
 		},
 		{
 			"ImportPath": "github.com/docker/docker/pkg/ioutils",
-			"Comment": "v1.4.1-9107-gf11b6a2",
-			"Rev": "f11b6a2ab313a03d051dd6f69d264d0482df72d6"
-		},
-		{
-			"ImportPath": "github.com/docker/docker/pkg/longpath",
 			"Comment": "v1.4.1-9107-gf11b6a2",
 			"Rev": "f11b6a2ab313a03d051dd6f69d264d0482df72d6"
 		},
@@ -113,6 +108,10 @@
 			"Rev": "26a6070f849969ba72b72256e9f14cf519751690"
 		},
 		{
+			"ImportPath": "github.com/gorilla/websocket",
+			"Rev": "5ed2f4547d7b9c036541b27a67ecf54e41756997"
+		},
+		{
 			"ImportPath": "github.com/hashicorp/consul/api",
 			"Comment": "v0.6.1-11-g562bf11",
 			"Rev": "562bf11e9ff784824f9c5fec0ad3609805e13a3d"
@@ -168,6 +167,11 @@
 		{
 			"ImportPath": "github.com/pmezard/go-difflib/difflib",
 			"Rev": "792786c7400a136282c1664665ae0a8db921c6c2"
+		},
+		{
+			"ImportPath": "github.com/rancher/go-rancher/client",
+			"Comment": "v0.1.0-142-g25833c0",
+			"Rev": "25833c005463e33a6384930db33acca37252d960"
 		},
 		{
 			"ImportPath": "github.com/samalba/dockerclient",
